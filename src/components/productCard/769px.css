@@ -1,0 +1,12 @@
+@media only screen and (min-width: 769px) {
+    .product-container {
+        max-width: 300px;
+        width: 30%;
+        aspect-ratio: 3 / 4;
+    }
+    
+    .product-container p {
+        text-align: center;
+        font-size: 26px;
+    }
+}

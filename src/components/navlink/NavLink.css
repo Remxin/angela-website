@@ -1,0 +1,18 @@
+@media screen and (min-width: 760px) {
+    .navlink-dot {
+        position: relative;
+        left: -5px;
+        top: 2px;
+        /* top: 15.5px; */
+        border-radius: 50%;
+        width: 20px;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .navlink-dot svg {
+        width: 100%;
+        height: 100%;
+        color: #f07b7b;
+        border-radius: 50%;
+    }
+}

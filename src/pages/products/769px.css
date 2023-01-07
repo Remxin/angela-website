@@ -1,0 +1,35 @@
+@media only screen and (min-width: 769px) {
+    .page-title {
+        color: white;
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    
+    .haircut-choice-container {
+        gap: 40px;
+    }
+    
+    .haircut-choice {
+        /* width: 25%; */
+        width: 220px;
+    }
+
+    .haircut-name {
+        margin-top: 8px;
+        font-size: 26px;
+    }
+    
+    
+    .haircut-image {
+        width: 120px;
+        aspect-ratio: 1 / 1;
+        border-radius: 10px;
+    }
+
+    
+    .chosen-title {
+        margin-top: 120px;
+        font-size: 30px;
+    }
+    
+}

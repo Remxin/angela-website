@@ -1,0 +1,113 @@
+.navbar {
+    position: fixed;
+   
+    top: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100px;
+    z-index: 1000;
+    background-color: #000000aa;
+    /* background-color: yellow; */
+    /* filter: blur(5px); */
+}
+
+.navbar > * {
+    z-index: 100;
+}
+
+.navbar-logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+
+.navbar-list__element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+    /* background-color: green; */
+}
+
+.navbar-list__element a {
+    font-family: Plus Jakata;
+    height: 100%;
+    padding: 10px 0;
+    /* width: 85%; */
+    max-width: 90%;
+    text-decoration: none;
+    transition: .3s all;
+    text-align: right;
+    font-size: 14px;
+
+}
+
+.navbar-list__element a:hover {
+    /* color: #fefefe; */
+    /* font-weight: bold; */
+}    
+
+/* asfasdfasdfasdfafdasdfasd */
+.hamburger-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    z-index: 1001;
+ 
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+
+.hamburger-container svg {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-navigation {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212ee;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+}
+
+.navbar-list__element {
+    display: flex;
+    align-items: center;
+    /* justify-content: fle; */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* height: 50px; */
+    list-style: none;
+    cursor: pointer;
+    /* background-color: green; */
+}
+
+.navbar-list__element a {
+    font-family: Plus Jakata;
+    height: 100%;
+    padding: 10px 0;
+    /* width: 85%; */
+    max-width: 90%;
+    text-decoration: none;
+    transition: .3s all;
+    text-align: right;
+    font-size: 20px;
+
+}

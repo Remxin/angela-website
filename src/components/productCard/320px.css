@@ -1,0 +1,17 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    aspect-ratio: 2 / 3;
+    box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-container p {
+    text-align: center;
+    font-size: 18px;
+}

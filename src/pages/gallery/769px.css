@@ -1,0 +1,26 @@
+@media only screen and (min-width: 769px) {
+    .gallery {
+        padding-top: 160px;
+    
+    }
+    .gallery-image {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+        width: 50%;
+        /* max-width: 500px; */
+        max-height: 200px;
+        aspect-ratio: 1920 / 1280;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .gallery-image img {
+        width: 100%;
+        /* background-color: green; */
+        border-radius: 10px;
+    }
+}

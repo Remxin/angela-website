@@ -1,0 +1,39 @@
+@media only screen and (min-width: 569px) {
+    .studio-name {
+        font-size: 30px;
+    }
+    
+    .description {
+        font-size: 16px;
+    }
+    
+    .opening-hours {
+        width: 80%;
+    }
+
+    .opening-hours .hours-section p {
+        font-size: 18px;
+    }   
+    
+    .opening-hours .hours-section:first-child p {
+        color: #efefef;
+    }  
+    
+    .opening-hours .hours-section p:nth-child(2) {
+        padding-left: 15px;
+    }
+    
+    .subtitle {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 34px;
+    }
+    
+    .page-text {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}

@@ -1,0 +1,84 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    /* z-index: -1; */
+}
+
+p {
+    font-family: Plus Jakata;
+}
+.hairdresser-image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hairdresser-image {
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    /* left: 10%; */
+    width: 80%;
+    aspect-ratio: 1920 / 1280;
+    border-radius: 4%;
+ 
+}
+
+.studio-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: Plus Jakata;
+    color: #dedede;
+}
+
+.description {
+    width: 100%;
+    color: #898989;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.opening-hours {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.opening-hours .hours-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}   
+
+.opening-hours .hours-section p {
+    color: #ababab;
+    width: 100%;
+    text-align: center;
+}   
+
+.opening-hours .hours-section:first-child p {
+    color: #efefef;
+}  
+
+.opening-hours .hours-section p:nth-child(2) {
+    padding-left: 15px;
+}
+
+.subtitle {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.page-text {
+    margin-top: 10px;
+    text-align: center;
+}

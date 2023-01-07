@@ -1,0 +1,44 @@
+[
+    {
+        "name": "męskie",
+        "variants": [
+            {
+                "name": "cięcie",
+                "price": 40
+            },
+            {
+                "name": "farbowanie",
+                "price": 80
+            },
+            {
+                "name": "prostowanie keratyną",
+                "price": 120
+            },
+            {
+                "name": "kręcenie",
+                "price": 180
+            }
+        ]
+    },
+    {
+        "name": "damskie",
+        "variants": [
+            {
+                "name": "cięcie",
+                "price": 80
+            },
+            {
+                "name": "farbowanie",
+                "price": 200
+            },
+            {
+                "name": "prostowanie keratyną",
+                "price": 250
+            },
+            {
+                "name": "kręcenie",
+                "price": 350
+            }
+        ]
+    }
+]
